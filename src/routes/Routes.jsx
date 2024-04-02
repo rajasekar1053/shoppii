@@ -19,12 +19,13 @@ const Routes=createBrowserRouter([
     {
     path:"/",
     element:<Layout />, 
+        
  
     
     errorElement:<Error />,
      children:[   
         {
-            path:"/",
+            path:"/shoppii",
             element:<Home/>,
         }  ,             
                
