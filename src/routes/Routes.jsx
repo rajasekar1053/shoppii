@@ -24,7 +24,7 @@ const Routes=createBrowserRouter([
     errorElement:<Error />,
      children:[   
         {
-            path:"/",
+            path:"/shoppii",
             element:<Home/>,
         }  ,             
                

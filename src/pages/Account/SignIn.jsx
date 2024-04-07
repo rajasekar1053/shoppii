@@ -118,7 +118,7 @@ const SignIn = () => {
             </p>
             <Link to="/signup">
               <button
-                className="w-full h-10 bg-primeColor text-gray-200 rounded-md text-base font-titleFont font-semibold 
+                className="w-full h-10 bg-gray-500 text-gray-200 rounded-md text-base font-titleFont font-semibold 
             tracking-wide hover:bg-black hover:text-white duration-300"
               >
                 Sign Up
