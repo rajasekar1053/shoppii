@@ -102,13 +102,13 @@ const Footer = () => {
           <FooterListTitle title="Your account" />
           <ul className="flex flex-col gap-2">
             <li className="font-titleFont text-base text-lightText hover:text-black hover:underline decoration-[1px] decoration-gray-500 underline-offset-2 cursor-pointer duration-300">
-              <Link to="/shoppii/signup">Profile </Link>
+              <Link to="/signup">Profile </Link>
             </li>
             <li className="font-titleFont text-base text-lightText hover:text-black hover:underline decoration-[1px] decoration-gray-500 underline-offset-2 cursor-pointer duration-300">
-             <Link to="/shoppii/cart"> Orders</Link>
+             <Link to="/cart"> Orders</Link>
             </li>
             <li className="font-titleFont text-base text-lightText hover:text-black hover:underline decoration-[1px] decoration-gray-500 underline-offset-2 cursor-pointer duration-300">
-             <Link to="/shoppii/contact"> Addresses </Link>
+             <Link to="/contact"> Addresses </Link>
             </li>
             <li className="font-titleFont text-base text-lightText hover:text-black hover:underline decoration-[1px] decoration-gray-500 underline-offset-2 cursor-pointer duration-300">
               Account Details

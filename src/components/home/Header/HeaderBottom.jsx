@@ -91,7 +91,7 @@ const HeaderBottom = () => {
                     <div
                       onClick={() =>
                         navigate(
-                          `/shoppii/produc/${item.productName
+                          `/produc/${item.productName
                             .toLowerCase()
                             .split("")
                             .join("")}`,
@@ -139,12 +139,12 @@ const HeaderBottom = () => {
                 transition={{ duration: 0.5 }}
                 className="absolute top-6 left-0 z-50 bg-primeColor w-44 text-[#767676] h-auto p-4 pb-6"
               >
-                <Link to="/shoppii/signin">
+                <Link to="/signin">
                   <li className="text-gray-400 px-4 py-1 border-b-[1px] border-b-gray-400 hover:border-b-white hover:text-white duration-300 cursor-pointer">
                     Login
                   </li>
                 </Link>
-                <Link onClick={() => setShowUser(false)} to="/shoppii/signup">
+                <Link onClick={() => setShowUser(false)} to="/signup">
                   <li className="text-gray-400 px-4 py-1 border-b-[1px] border-b-gray-400 hover:border-b-white hover:text-white duration-300 cursor-pointer">
                     Sign Up
                   </li>
@@ -157,7 +157,7 @@ const HeaderBottom = () => {
                 </li>
               </motion.ul>
             )}
-            <Link to="/shoppii/cart">
+            <Link to="/cart">
               <div className="relative">
                 <FaShoppingCart />
                 <span className="absolute font-titleFont top-3 -right-2 text-xs w-4 h-4 flex items-center justify-center rounded-full bg-primeColor text-white">

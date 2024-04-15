@@ -16,7 +16,7 @@ const Product = (props) => {
   const navigate = useNavigate();
   const productItem = props;
   const handleProductDetails = () => {
-    navigate(`/shoppii/product/${rootId}`, {
+    navigate(`/product/${rootId}`, {
       state: {
         item: productItem,
       },

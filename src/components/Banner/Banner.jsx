@@ -133,7 +133,7 @@ const Banner = () => {
       text: "Quality Printing Solutions",
       Subtext:
         "Discover our wide range of printers and consumables designed for professional printing needs.",
-        buttonLink: "/shoppii/shop",
+        buttonLink: "/shop",
         buttonText: "Shop Now"
     },
     {
@@ -141,7 +141,7 @@ const Banner = () => {
       text: "Enhance Your Printing Experience",
       Subtext:
         "Explore our premium printers and consumables for exceptional results",
-      buttonLink: "/shoppii/contact",
+      buttonLink: "/contact",
       buttonText: "Contact-us",
     },
   
@@ -150,7 +150,7 @@ const Banner = () => {
       text: "Efficiency Redefined",
       Subtext:
         "Maximize productivity with our advanced printers and high-quality consumables. ",
-      buttonLink: "/shoppii/shop",
+      buttonLink: "/shop",
       buttonText: "Shop Now",
     },
 

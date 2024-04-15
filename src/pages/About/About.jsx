@@ -20,7 +20,7 @@ const About = () => {
         </h1>
         <h3  className="max-w-[750px] mr-auto text-base text-lightText mb-2 ">In Shoppii’s customer trust research, we found shoppers navigate to an About Us page to learn more about the brand and the people behind the products.
            Your About Page should address those two curiosities shoppers have to help them with decision making. </h3>
-        <Link to="/shoppii/shop">
+        <Link to="/shop">
           <button className="w-52 h-10 bg-primeColor text-white hover:bg-black duration-300">
             Continue Shopping
           </button>

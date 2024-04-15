@@ -28,7 +28,7 @@ const Sale = () => {
               sales for all Printers{" "}
             </p>
             <div className=" mb-8">
-            <Link to="/shoppii/shop"> <ShopNow />  </Link>
+            <Link to="/shop"> <ShopNow />  </Link>
             </div>
           </div>
         </div>
@@ -36,12 +36,12 @@ const Sale = () => {
 
       <div className="w-full md:w-2/3 lg:w-1/2 h-auto flex flex-col gap-4 lg:gap-10">
         <div className="h-1/2 w-full">
-          <Link to="/shoppii/shop">
+          <Link to="/shop">
             <Image className="h-full w-full object-cover" imgSrc={saleImgTwo} />
           </Link>
         </div>
         <div className="h-1/2 w-full">
-          <Link to="/shoppii/shop">
+          <Link to="/shop">
             <Image
               className="h-full w-full object-cover"
               imgSrc={saleImgThree}
