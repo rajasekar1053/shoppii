@@ -46,7 +46,7 @@ const SignIn = () => {
     <div className="w-full h-screen flex items-center justify-center">
       <div className="w-1/2 hidden lgl:inline-flex h-full text-white">
         <div className="w-[450px] h-full bg-primeColor px-10 flex flex-col gap-6 justify-center">
-          <Link to="/">
+          <Link to="/shoppii">
             <img src={logo} alt="logoImg" className="w-28" />
           </Link>
           <div className="flex flex-col gap-1 -mt-1">
@@ -93,7 +93,7 @@ const SignIn = () => {
             </p>
           </div>
           <div className="flex items-center justify-between mt-10">
-            <Link to="/">
+            <Link to="/shoppii">
               <p className="text-sm font-titleFont font-semibold text-gray-300 hover:text-white cursor-pointer duration-300">
                 © SHOPPII
               </p>
@@ -116,7 +116,7 @@ const SignIn = () => {
             <p className="w-full px-4 py-10 text-green-500 font-medium font-titleFont">
               {successMsg}
             </p>
-            <Link to="/signup">
+            <Link to="/shoppii/signup">
               <button
                 className="w-full h-10 bg-gray-500 text-gray-200 rounded-md text-base font-titleFont font-semibold 
             tracking-wide hover:bg-black hover:text-white duration-300"
@@ -180,7 +180,7 @@ const SignIn = () => {
                 </button>
                 <p className="text-sm text-center font-titleFont font-medium">
                   Don't have an Account?{" "}
-                  <Link to="/signup">
+                  <Link to="/shoppii/signup">
                     <span className="hover:text-blue-600 duration-300">
                       Sign up
                     </span>

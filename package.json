@@ -5,15 +5,17 @@
  
   "version": "0.0.0",
   "type": "module",
+  
   "scripts": {
     
     "dev": "vite",
-    "build": "vite build ",
+    "build": "[my-framework] build --output public",
     "base":"./,",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
     
-  },
+    }
+  ,
   "dependencies": {
     "@hookform/resolvers": "^3.3.4",
     "@reduxjs/toolkit": "^2.2.2",

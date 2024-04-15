@@ -92,7 +92,7 @@ const Cart = () => {
                 </p>
               </div>
               <div className="flex justify-end">
-                <Link to="/paymentgateway">
+                <Link to="/shoppii/paymentgateway">
                   <button className="w-52 h-10 bg-primeColor text-white hover:bg-black duration-300">
                     Proceed to Checkout
                   </button>
@@ -123,7 +123,7 @@ const Cart = () => {
               Your Shopping cart lives to serve. Give it purpose - fill it with
               books, electronics, videos, etc. and make it happy.
             </p>
-            <Link to="/shop">
+            <Link to="/shoppii/shop">
               <button className="bg-primeColor rounded-md cursor-pointer hover:bg-black active:bg-gray-900 px-8 py-2 font-titleFont font-semibold text-lg text-gray-200 hover:text-white duration-300">
                 Continue Shopping
               </button>

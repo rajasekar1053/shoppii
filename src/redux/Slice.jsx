@@ -8,7 +8,7 @@ const initialState = {
   checkedCategorys: [],
 };
 
-export const orebiSlice = createSlice({
+export const Slice = createSlice({
   name: "SHOPPII",
   initialState,
   reducers: {
@@ -21,7 +21,7 @@ export const orebiSlice = createSlice({
       } else {
         state.products.push(action.payload);
       }
-     
+      // Dispatch a success toast
       toast.success("Product added to cart");
     },
     increaseQuantity: (state, action) => {
@@ -30,7 +30,7 @@ export const orebiSlice = createSlice({
       );
       if (item) {
         item.quantity++;
-        
+        // Dispatch a success toast
       }
     },
     drecreaseQuantity: (state, action) => {
@@ -41,18 +41,19 @@ export const orebiSlice = createSlice({
         item.quantity = 1;
       } else {
         item.quantity--;
-        
+        // Dispatch a success toast
       }
     },
     deleteItem: (state, action) => {
       state.products = state.products.filter(
         (item) => item._id !== action.payload
       );
-            toast.error("Product removed from cart");
+      // Dispatch a success toast
+      toast.error("Product removed from cart");
     },
     resetCart: (state) => {
       state.products = [];
-    
+      // Dispatch a success toast
     },
 
     toggleBrand: (state, action) => {
@@ -95,5 +96,5 @@ export const {
   resetCart,
   toggleBrand,
   toggleCategory,
-} = orebiSlice.actions;
-export default orebiSlice.reducer;
+} = Slice.actions;
+export default Slice.reducer;

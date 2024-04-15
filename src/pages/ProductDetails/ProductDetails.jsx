@@ -6,7 +6,7 @@ import { FaDownload } from "react-icons/fa";
 
 const tabs = [
   {
-    id: "Fiche Technique",
+    id: "details",
     label: "Features",
     content:"Common uses of printers in computers include printing documents, such as reports and essays, producing high-quality photographs, creating marketing materials like brochures and flyers, generating labels and stickers, and printing out important forms or contracts"
   },

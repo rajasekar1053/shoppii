@@ -1,8 +1,7 @@
-
-import { createBrowserRouter,Route } from "react-router-dom";
+import { createBrowserRouter } from "react-router-dom";
 import Layout from "../layout/Layout";
-import Error  from "../erorr/Error";
-import Home from "../pages/Home/Home"
+import Error from "../erorr/Error";
+import Home from "../pages/Home/Home";
 import Shop from "../pages/Shop/Shop";
 import Contact from "../pages/Contact/Contact";
 import About from "../pages/About/About";
@@ -13,66 +12,52 @@ import Payment from "../pages/payment/Payment";
 import ProductDetails from "../pages/ProductDetails/ProductDetails";
 import Cart from "../pages/Cart/Cart";
 
+const Routes = createBrowserRouter([
+  {
+    path: "/shoppii",
+    element: <Layout />,
 
+    errorElement: <Error />,
+    children: [
+      {
+        path: "/shoppii/home",
+        element: <Home />,
+      },
 
-const Routes=createBrowserRouter([
-    {
-    path:"/",
-    element:<Layout />, 
- 
-    
-    errorElement:<Error />,
-     children:[   
-        {
-            path:"/shoppii",
-            element:<Home/>,
-        }  ,             
-               
-     {
-            path:"/shop",
-            element:<Shop />
-        },
-        {
-            path:"/about",
-            element:<About />,
-        },
-        {
-            path:"/contact",
-            element:<Contact />,
-        }, 
-      
-        {
-            path:"/product/:_id",
-            element:<ProductDetails />,
-        },
-         {
-            path:"/cart",
-            element:<Cart />,
-        },
-        {
-            path:"/paymentgateway",
-            element:<Payment />,
-        },
-         {
-            path:"/signup",
-            element:<SignUp />,
-        },
-        {
-            path:"/signin",
-            element:<SignIn />,
-        }
-    ]
-            },
-        
-            
-          
-            
-          ],
-           
-  
+      {
+        path: "/shoppii/shop",
+        element: <Shop />,
+      },
+      {
+        path: "/shoppii/about",
+        element: <About />,
+      },
+      {
+        path: "/shoppii/contact",
+        element: <Contact />,
+      },
 
-);
+      {
+        path: "/shoppii/product/:_id",
+        element: <ProductDetails />,
+      },
+      {
+        path: "/shoppii/cart",
+        element: <Cart />,
+      },
+      {
+        path: "/shoppii/paymentgateway",
+        element: <Payment />,
+      },
+      {
+        path: "/shoppii/signup",
+        element: <SignUp />,
+      },
+      {
+        path: "/shoppii/signin",
+        element: <SignIn />,
+      },
+    ],
+  },
+]);
 export default Routes;
-
-
-  

@@ -50,7 +50,7 @@ export const SplOfferData = [{
   productName: "Hat",
   brand: "MAJIK",
   price: 288,
-  id: 1,
+  _id: 1,
   image_url:
     "https://assets.ccbp.in/frontend/react-js/ecommerce/clothes-cap.png",
   rating: "3.6",
@@ -59,7 +59,7 @@ export const SplOfferData = [{
   productName: "Plain Round Neck T-shirt",
   brand: "Huetrap",
   price: 395,
-  id: 2,
+  _id: 2,
   image_url:
     "https://assets.ccbp.in/frontend/react-js/ecommerce/clothes-fit-t-shirt.png",
   rating: "4.1",
@@ -68,7 +68,7 @@ export const SplOfferData = [{
   productName: "Cotton Hoodie",
   brand: "Scott International",
   price: 498,
-  id: 3,
+  _id: 3,
   image_url:
     "https://assets.ccbp.in/frontend/react-js/ecommerce/clothes-hoodie.png",
   rating: "3.8",
@@ -77,7 +77,7 @@ export const SplOfferData = [{
   productName: "Men's Waistcoat",
   brand: "LEVIS",
   price: 2500,
-  id: 4,
+  _id: 4,
   image_url:
     "https://assets.ccbp.in/frontend/react-js/ecommerce/clothes-jacket.png",
   rating: "4.3",
@@ -86,7 +86,8 @@ export const SplOfferData = [{
   productName: "Slim Fit Jeans",
   brand: "LEVIS",
   price: 1469,
-  id: 5,
+  des:"LEVIS",
+  _id: 5,
   image_url:
     "https://assets.ccbp.in/frontend/react-js/ecommerce/clothes-jeans-pants.png",
   rating: "3.1",
@@ -94,8 +95,9 @@ export const SplOfferData = [{
 {
   productName: "Miss Chase Bodycon Dress",
   brand: "LEVIS",
+  des:"LEVIS",
   price: 974,
-  id: 6,
+  _id: 6,
   image_url:
     "https://assets.ccbp.in/frontend/react-js/ecommerce/clothes-modren-net.png",
   rating: "3.8",
@@ -104,7 +106,8 @@ export const SplOfferData = [{
   productName: "Zari Design Kurta",
   brand: "Libas",
   price: 1869,
-  id: 7,
+  des:"Libas",
+  _id: 7,
   image_url:
     "https://assets.ccbp.in/frontend/react-js/ecommerce/clothes-punjabi.png",
   rating: "4.4",
@@ -112,8 +115,9 @@ export const SplOfferData = [{
 {
   productName: "Slim Fit Blazer",
   brand: "LEVIS",
+  des:"LEVIS",
   price: 2599,
-  id: 8,
+  _id: 8,
   image_url:
     "https://assets.ccbp.in/frontend/react-js/ecommerce/clothes-purple-jacket.png",
   rating: "4.2",
@@ -122,7 +126,8 @@ export const SplOfferData = [{
   productName: "Animal Printed Shirt",
   brand: "Mufti",
   price: 1017,
-  id: 9,
+  des:"Mufti",
+  _id: 9,
   image_url:
     "https://assets.ccbp.in/frontend/react-js/ecommerce/clothes-short-sleeves-shirt.png",
   rating: "4",
@@ -131,7 +136,8 @@ export const SplOfferData = [{
   productName: "Polyester Saree",
   brand: "Ahalyaa",
   price: 419,
-  id: 10,
+  des: "Ahalyaa",
+  _id: 10,
   image_url:
     "https://assets.ccbp.in/frontend/react-js/ecommerce/clothes-side-sareee.png",
   rating: "3.8",
@@ -139,8 +145,9 @@ export const SplOfferData = [{
 {
   productName: "Warm Up Jacket",
   brand: "Monte Carlo",
+  des:"Monte Carlo",
   price: 2796,
-  id: 11,
+  _id: 11,
   image_url:
     "https://assets.ccbp.in/frontend/react-js/ecommerce/clothes-sim-jacket.png",
   rating: "4.4",
@@ -148,33 +155,37 @@ export const SplOfferData = [{
 {
   productName: "Wrap Dress",
   brand: "Vero Moda",
+  des: "Vero Moda",
   price: 3039,
-  id: 12,
+  _id: 12,
   image_url:
     "https://assets.ccbp.in/frontend/react-js/ecommerce/clothes-simple-formal.png",
   rating: "3.2",
 },
 {
-  title: "Knit Cream Sweater",
+  productName: "Knit Cream Sweater",
   brand: "MansiCollections",
   price: 996,
-  id: 13,
+  des:"MansiCollections",
+  _id: 13,
   image_url:
     "https://assets.ccbp.in/frontend/react-js/ecommerce/clothes-stylish-sweater.png",
   rating: "3.2",
 },
 {
-  title: "Sheer Anarkali",
+  productName: "Sheer Anarkali",
   brand: "Saadgi",
+  des:"Saadgi",
   price: 2172,
-  id: 14,
+  _id: 14,
   image_url:
     "https://assets.ccbp.in/frontend/react-js/ecommerce/clothes-white-punjabi.png",
   rating: "3.2",
 },
 {
-  title: "Embellished Maxi Dress",
+  productName: "Embellished Maxi Dress",
   brand: "STREET 9",
+  des: "STREET 9",
   price: 1799,
   id: 15,
   image_url:
@@ -182,55 +193,61 @@ export const SplOfferData = [{
   rating: "3.2",
 },
 {
-  title: "Embroidered Net Gown",
+  productName: "Embroidered Net Gown",
   brand: "Manyavar",
+  des:"Manyavar",
   price: 62990,
-  id: 16,
+  _id: 16,
   image_url:
     "https://assets.ccbp.in/frontend/react-js/ecommerce/cloths-long-fork.png",
   rating: "3.2",
 },
 {
-  title: "Analog Men's Watch",
+  productName: "Analog Men's Watch",
   brand: "Fastrack",
+  des:"Fastrack",
   price: 1850,
-  id: 25,
+  _id: 25,
   image_url:
     "https://assets.ccbp.in/frontend/react-js/ecommerce/electronics-casual-watch.png",
   rating: "4.2",
 },
 {
-  title: "Tea Kettle Pot",
+  productName: "Tea Kettle Pot",
   brand: "Indian Art Villa",
   price: 1685,
-  id: 26,
+  des: "Indian Art Villa",
+  _id: 26,
   image_url:
     "https://assets.ccbp.in/frontend/react-js/ecommerce/electronics-copper-kettle.png",
   rating: "3.8",
 },
 {
-  title: "Aluminium 4 Cup Tea Kettle",
+  productName: "Aluminium 4 Cup Tea Kettle",
   brand: "Kitchen Expert",
+  des: "Kitchen Expert",
   price: 399,
-  id: 27,
+  _id: 27,
   image_url:
     "https://assets.ccbp.in/frontend/react-js/ecommerce/electronics-kettle.png",
   rating: "4.3",
 },
 {
-  title: "Tripod Stand",
+  productName: "Tripod Stand",
   brand: "Sketchfab",
+  des:"Sketchfab",
   price: 390,
-  id: 28,
+  _id: 28,
   image_url:
     "https://assets.ccbp.in/frontend/react-js/ecommerce/electronics-medium-tripod.png",
   rating: "4.2",
 },
 {
-  title: "Beard Trimmer",
+  productName: "Beard Trimmer",
   brand: "Nova",
+  des: "Nova",
   price: 398,
-  id: 29,
+  _id: 29,
   image_url:
     "https://assets.ccbp.in/frontend/react-js/ecommerce/electronics-nova-trimmer.png",
   rating: "4.5",
@@ -238,8 +255,9 @@ export const SplOfferData = [{
 {
   productName: "Nova SuperGroom Multi-kit",
   brand: "Nova",
+  des:"Nova",
   price: 1199,
-  id: 30,
+  _id: 30,
   image_url:
     "https://assets.ccbp.in/frontend/react-js/ecommerce/electronics-nover-v2-trimmer.png",
   rating: "4.4",
@@ -247,8 +265,9 @@ export const SplOfferData = [{
 {
   productName: "Privateer Quartz Watch",
   brand: "Fossil",
+  des:"Fossil",
   price: 8122,
-  id: 31,
+  _id: 31,
   image_url:
     "https://assets.ccbp.in/frontend/react-js/ecommerce/electronics-royal-black-watch.png",
   rating: "4.4",
@@ -256,8 +275,9 @@ export const SplOfferData = [{
 {
   productName: "Chronograph black Watch",
   brand: "Fossil",
+  des:"Fossil",
   price: 6395,
-  id: 32,
+  _id: 32,
   image_url:
     "https://assets.ccbp.in/frontend/react-js/ecommerce/electronics-royal-watch.png",
   rating: "3.8",
@@ -870,8 +890,6 @@ export const paginationItems = [
     cast: "Catridges",
   },
 
-  // =================== imprimante hp =================
-
  
   {
     _id: "201",
@@ -914,7 +932,7 @@ export const paginationItems = [
     cast: "printers",
   },
   {
-    _id: "205",
+    _id: "295",
     img: printers6,
     productName: "printers",
     price: "105.00",
@@ -924,7 +942,7 @@ export const paginationItems = [
     cast: "printers",
   },
   {
-    _id: "206",
+    _id: "296",
     img: printers7,
     productName: "printers",
     price: "220.00",
@@ -934,7 +952,7 @@ export const paginationItems = [
     cast: "imprimante",
   },
   {
-    _id: "207",
+    _id: "297",
     img: printers8,
     productName: "printers",
     price: "85.00",
@@ -944,7 +962,7 @@ export const paginationItems = [
     cast: "printers",
   },
   {
-    _id: "208",
+    _id: "298",
     img: printers9,
     productName: "printers",
     price: "220.00",
@@ -954,7 +972,7 @@ export const paginationItems = [
     cast: "printers",
   },
   {
-    _id: "209",
+    _id: "299",
     img: inkjet1,
     productName: "inkjet",
     price: "175.00",
@@ -964,7 +982,7 @@ export const paginationItems = [
     cast: "printer inkjet",
   },
   {
-    _id: "210",
+    _id: "290",
     img:inkjet2 ,
     productName: " Printer ink ",
     price: "220.00",
@@ -974,7 +992,7 @@ export const paginationItems = [
     cast: "printer inkjet",
   },
   {
-    _id: "211",
+    _id: "291",
     img: inkjet3,
     productName: "printer inkjet",
     price: "95.00",
@@ -984,7 +1002,7 @@ export const paginationItems = [
     cast: "aprinter inkjet",
   },
   {
-    _id: "212",
+    _id: "292",
     img: inkjet4,
     productName: " printer inkjet",
     price: "220.00",
@@ -994,7 +1012,7 @@ export const paginationItems = [
     cast: "inkjet ",
   },
   {
-    _id: "213",
+    _id: "283",
     img:  ribban1,
     productName: "Ribban printer",
     price: "440.00",
@@ -1004,7 +1022,7 @@ export const paginationItems = [
     cast: "Ribban printer",
   },
   {
-    _id: "214",
+    _id: "2874",
     img:  ribban2,
     productName: "Ribban printer",
     price: "220.00",
@@ -1014,7 +1032,7 @@ export const paginationItems = [
     cast: "Ribban printer",
   },
   {
-    _id: "215",
+    _id: "285",
     img: ribban3,
     productName: "Ribban printer",
     price: "125.00",
@@ -1024,7 +1042,7 @@ export const paginationItems = [
     cast: "Ribban printer",
   },
   {
-    _id: "216",
+    _id: "276",
     img:  ribban4,
     productName: "Ribban printer",
     price: "220.00",
@@ -1034,7 +1052,7 @@ export const paginationItems = [
     cast: "Ribban printer",
   },
   {
-    _id: "217",
+    _id: "277",
     img: Catridges1,
     productName: "Lexmark Toner Kit",
     price: "250.00",
@@ -1044,7 +1062,7 @@ export const paginationItems = [
     cast: "Toner Kit",
   },
   {
-    _id: "219",
+    _id: "279",
     img: Catridges2,
     productName: "Toner Catridges",
     price: "220.00",
@@ -1054,7 +1072,7 @@ export const paginationItems = [
     cast: "Toner Catridges",
   },
   {
-    _id: "220",
+    _id: "260",
     img: Catridges3,
     productName: " lexmark Toner Catridges",
     price: "125.00",
@@ -1064,7 +1082,7 @@ export const paginationItems = [
     cast: "Bac",
   },
   {
-    _id: "221",
+    _id: "261",
     img: Catridges4,
     productName: "Toner return Catridges",
     price: "220.00",
@@ -1077,7 +1095,7 @@ export const paginationItems = [
     productName: "Hat",
     brand: "MAJIK",
     price: 288,
-    id: 1,
+    _id: 1,
     img:
       "https://assets.ccbp.in/frontend/react-js/ecommerce/clothes-cap.png",
     rating: "3.6",
@@ -1086,7 +1104,7 @@ export const paginationItems = [
     productName: "Plain Round Neck T-shirt",
     brand: "Huetrap",
     price: 395,
-    id: 2,
+    _id: 2,
     img:
       "https://assets.ccbp.in/frontend/react-js/ecommerce/clothes-fit-t-shirt.png",
     rating: "4.1",
@@ -1095,7 +1113,7 @@ export const paginationItems = [
     productName: "Cotton Hoodie",
     brand: "Scott International",
     price: 498,
-    id: 3,
+   _id: 3,
     img:
       "https://assets.ccbp.in/frontend/react-js/ecommerce/clothes-hoodie.png",
     rating: "3.8",
@@ -1104,7 +1122,7 @@ export const paginationItems = [
     productName: "Men's Waistcoat",
     brand: "LEVIS",
     price: 2500,
-    id: 4,
+    _id: 4,
     img:
       "https://assets.ccbp.in/frontend/react-js/ecommerce/clothes-jacket.png",
     rating: "4.3",
@@ -1113,7 +1131,7 @@ export const paginationItems = [
     productName: "Slim Fit Jeans",
     brand: "LEVIS",
     price: 1469,
-    id: 5,
+    _id: 5,
     img:
       "https://assets.ccbp.in/frontend/react-js/ecommerce/clothes-jeans-pants.png",
     rating: "3.1",
@@ -1122,7 +1140,7 @@ export const paginationItems = [
     productName: "Miss Chase Bodycon Dress",
     brand: "LEVIS",
     price: 974,
-    id: 6,
+    _id: 6,
     img:
       "https://assets.ccbp.in/frontend/react-js/ecommerce/clothes-modren-net.png",
     rating: "3.8",
@@ -1131,7 +1149,7 @@ export const paginationItems = [
     productName: "Zari Design Kurta",
     brand: "Libas",
     price: 1869,
-    id: 7,
+    _id: 7,
     img:
       "https://assets.ccbp.in/frontend/react-js/ecommerce/clothes-punjabi.png",
     rating: "4.4",
@@ -1140,7 +1158,7 @@ export const paginationItems = [
     productName: "Slim Fit Blazer",
     brand: "LEVIS",
     price: 2599,
-    id: 8,
+    _id: 8,
     img:
       "https://assets.ccbp.in/frontend/react-js/ecommerce/clothes-purple-jacket.png",
     rating: "4.2",

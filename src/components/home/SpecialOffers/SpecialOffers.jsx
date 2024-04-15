@@ -59,7 +59,7 @@ const SpecialOffers = () => {
           <Product
             key={data._id}
             _id={data._id}
-            img={data. image_url}
+            img={data.image_url}
             productName={data.productName}
             price={data.price}
             color={data.brand}

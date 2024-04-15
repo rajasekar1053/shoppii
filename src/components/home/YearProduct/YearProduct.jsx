@@ -6,7 +6,7 @@ import Image from "../../designLayouts/Image";
 
 const YearProduct = () => {
   return (
-    <Link to="/shop">
+    <Link to="/shoppii/shop">
       <div className="w-full h-80 mb-20  bg-[#e1e2e4] md:bg-transparent relative font-titleFont">
         <Image
           className="w-full h-full object-cover hidden md:inline-block"
