@@ -14,47 +14,47 @@ import Cart from "../pages/Cart/Cart";
 
 const Routes = createBrowserRouter([
   {
-    path: "/shoppii",
+    path: "/",
     element: <Layout />,
 
     errorElement: <Error />,
     children: [
       {
-        path: "/shoppii/home",
+        path: "/home",
         element: <Home />,
       },
 
       {
-        path: "/shoppii/shop",
+        path: "/shop",
         element: <Shop />,
       },
       {
-        path: "/shoppii/about",
+        path: "/about",
         element: <About />,
       },
       {
-        path: "/shoppii/contact",
+        path: "/contact",
         element: <Contact />,
       },
 
       {
-        path: "/shoppii/product/:_id",
+        path: "/product/:_id",
         element: <ProductDetails />,
       },
       {
-        path: "/shoppii/cart",
+        path: "/cart",
         element: <Cart />,
       },
       {
-        path: "/shoppii/paymentgateway",
+        path: "/paymentgateway",
         element: <Payment />,
       },
       {
-        path: "/shoppii/signup",
+        path: "/signup",
         element: <SignUp />,
       },
       {
-        path: "/shoppii/signin",
+        path: "/signin",
         element: <SignIn />,
       },
     ],
